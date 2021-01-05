@@ -1,7 +1,7 @@
 {
 	"name": "jp-katohirohito-extension-vscode-minmax-in-csv",
-	"displayName": "MinMax in editor",
-	"description": "Highlights min/max value in active editor.",
+	"displayName": "MinMax in csv",
+	"description": "Highlights min/max value in active CSV file.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.52.0"
@@ -38,7 +38,7 @@
 		"commands": [
 			{
 				"command": "jp-katohirohito-extension-vscode-minmax-in-csv.highlightNumbers",
-				"title": "Highlight min/max value."
+				"title": "Highlight min/max value"
 			}
 		],
 		"keybindings":[

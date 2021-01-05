@@ -50,7 +50,7 @@ function highlightNumbers() {
 
 	// create a decorator type that we use to decorate min numbers
 	minValueDecorationType = vscode.window.createTextEditorDecorationType({
-		borderWidth: '1px',
+		borderWidth: '2px',
 		borderStyle: 'solid',
 		borderColor: { id: 'minmaxInEditor.minNumberBackground' },
 		overviewRulerColor: 'blue',
