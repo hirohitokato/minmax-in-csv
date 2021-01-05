@@ -2,10 +2,10 @@
 	"name": "jp-katohirohito-extension-vscode-minmax-in-csv",
 	"displayName": "MinMax in csv",
 	"description": "Highlights min/max value in active CSV file.",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.52.0"
-	},
+	"version": "1.0.0",
+	"author": "Hirohito Kato",
+	"publisher": "hkato193",
+	"icon": "assets/icon.png",
 	"license": "MIT",
 	"keywords": [
 		"statistics",
@@ -25,6 +25,9 @@
 		"url": "https://github.com/hirohitokato/minmax-in-csv.git"
 	},
 	"homepage": "https://github.com/hirohitokato/minmax-in-csv",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
 	"activationEvents": [
 		"onLanguage:csv"
 	],
