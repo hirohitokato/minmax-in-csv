@@ -69,6 +69,8 @@ function highlightNumbers() {
 
 	editor.setDecorations(minValueDecorationType, minDecorators);
 	editor.setDecorations(maxValueDecorationType, maxDecorators);
+
+	vscode.window.showInformationMessage(`Min:${minmax.min}, Max:${minmax.max}`);
 }
 
 function clearHighlightNumbers() {
